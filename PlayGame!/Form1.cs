@@ -34,7 +34,7 @@ namespace PlayGame_
             gamesoundPlayer.Play();
 
             goLabel.Text = "GO!";
-            Refresh();
+            Refresh(); 
             Thread.Sleep(500);
          // this will change the background colour to green when the countdown is done
             BackColor = Color.Green;
